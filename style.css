@@ -1,6 +1,30 @@
 body {
-    background-color: #F6F0D7;
+    background-color: #EBF4F6
 }
+
 .projects{
-    background-color: #C5D89D;
+    background-color: #7AB2B2;
+}
+.certifications{
+    background-color: #7AB2B2;
+}
+.navbar {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease in-out;
+}
+
+.navbar-scrolled {
+    background-color: #088395 !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}   
+
+.btn-custom {
+    background-color: #088395;
+    border-color: #088395;
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #06666B;
+    border-color: #06666B;
+    color: white;
 }
